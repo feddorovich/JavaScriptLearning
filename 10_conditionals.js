@@ -81,10 +81,37 @@ console.log(sunPositiveNumbers(-20,9)) // Numbers are not positive
 console.log(sunPositiveNumbers('a',3)) // One of the arguments is not a number
 console.log(sunPositiveNumbers(10,8)) // 10
 
+/* switch
+switch (Выражение) {
+    case A:
+        // Действие если Выражение === А
+        break
+    case B:
+        // Действие если Выражение === B
+        break
+    default:
+        // Действие по умолчанию
 
+ break - выход из свича, если выраение верно
+ */
 
+const month = 2
 
+switch (month) {
+    case 12:
+        console.log('Декабрь')
+        break
+    case 1:
+        console.log('Январь')
+        break
+    case 2:
+        console.log('Февраль')
+        break
+    default:
+        console.log('Это не зимний месяц')
+}
 
+// 07:08:00
 
 
 
