@@ -8,10 +8,12 @@ class Comment {
         this.text = text
         this.votesQty = 0
     }
+
     upvote() {
         this.votesQty += 1
     }
 }
+
 // constructor и upvote - это методы
 // Переменная this указыввает на экземпляр класс
 // Экземпляр создается с помощью вызова new
@@ -64,9 +66,11 @@ class Comment2 {
         this.text = text
         this.votesQty = 0
     }
+
     upvote() {
         this.votesQty += 1
     }
+
     static mergeComments(first, second) {
         return `${first} ${second}`
     }
@@ -81,16 +85,17 @@ class NumbersArray extends Array {
         return this.reduce((el, acc) => acc += el, 0)
     }
 }
+
 const myArray = new NumbersArray(2, 5, 7)
 console.log(myArray)
 console.log(myArray.sum())
 // extends - расширяет другой класс
 
+// МЕТОДЫ СТРОК
+const myName = 'Sergey'
+console.log(myName.toUpperCase()) // SERGEY
 
-
-
-
-// 09:16:00
+// 09:38:00
 
 
 
